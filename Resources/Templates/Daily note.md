@@ -2,62 +2,9 @@
 creationDate: "{{time:YYYY-MM-DD HH:mm}}"
 tags:
 ---
-# Meetings
-## Meeting-specific
 ```tasks
-(done on {{title}}) OR ((no cancelled date) AND (no done date) AND (scheduled on {{title}})) OR (cancelled on {{title}})
-path includes Meetings
-heading regex matches /^Meeting-specific$/
-hide postpone button
-sort by filename
-sort by function task.lineNumber
-group by filename
-show tree
-```
-# Tasks
-## To-Do
-### Priority tasks
-```tasks
-(done on {{title}}) OR ((no cancelled date) AND (no done date) AND (scheduled on {{title}})) OR (cancelled on {{title}})
-priority is not none
-hide postpone button
-sort by priority
-sort by filename
-sort by function task.lineNumber
-show tree
-```
-### General
-```tasks
-(done on {{title}}) OR ((no cancelled date) AND (no done date) AND (scheduled on {{title}})) OR (cancelled on {{title}})
-path includes Tasks/Specific
-heading regex matches /^General$/
-hide postpone button
-sort by filename
-sort by function task.lineNumber
-group by filename
-show tree
-```
-### Task-specific
-```tasks
-(done on {{title}}) OR ((no cancelled date) AND (no done date) AND (scheduled on {{title}})) OR (cancelled on {{title}})
-path includes Tasks/Specific
-heading regex matches /^Task-specific$/
-hide postpone button
-sort by filename
-sort by function task.lineNumber
-group by filename
-show tree
-```
-### Uncategorized
-```tasks
-(done on {{title}}) OR ((no cancelled date) AND (no done date) AND (scheduled on {{title}})) OR (cancelled on {{title}})
-path includes Tasks/Uncategorized
-heading regex matches /^To-Do$/
-hide postpone button
-sort by filename
-sort by function task.lineNumber
-group by filename
-show tree
+scheduled on {{query.file.filename}}
+preset project_tasks
 ```
 # Summary
 ```dataviewjs
