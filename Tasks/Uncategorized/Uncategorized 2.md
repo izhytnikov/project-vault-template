@@ -1,5 +1,4 @@
 ---
-creationDate: 2025-09-18 12:38
 tags:
 includeTasksInDailyNote: true
 project: Project 1

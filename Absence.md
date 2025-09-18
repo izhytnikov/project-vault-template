@@ -1,6 +1,5 @@
 ---
-creationDate: 2024-07-18 14:57
-tags: []
+tags:
 ---
 # General holiday
 *This section lists all the holidays in the country you live in.*

@@ -1,6 +1,5 @@
 ---
-creationDate: 2024-07-18 14:52
-tags: []
+tags:
 ---
 ```tasks
 not done
