@@ -1,6 +1,5 @@
 ---
 tags:
-includeTasksInDailyNote: true
 project: Project 1
 ---
 # To-Do
