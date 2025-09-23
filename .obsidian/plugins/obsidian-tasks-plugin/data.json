@@ -9,7 +9,10 @@
     "hide_query_elements": "# Hide postpone, edit and backinks\nhide postpone button\nhide edit button\nhide backlinks",
     "hide_everything": "# Hide everything except description and any tags\npreset hide_date_fields\npreset hide_non_date_fields\npreset hide_query_elements",
     "project_tasks": "path does not include Resources\nheading regex matches /^To-Do$/\ngroup by function task.file.property('project') ?? 'No project'\ngroup by folder\ngroup by filename\nsort by filename\nsort by function task.lineNumber\nhide postpone button\nshow tree",
-    "daily_note": "scheduled on {{query.file.filename}}\npreset project_tasks"
+    "daily_note": "scheduled on {{query.file.filename}}\npreset project_tasks",
+    "dashboard_shared": "not done\ngroup by scheduled\npreset project_tasks",
+    "dashboard_general": "tags include #tasks/general\npreset dashboard_shared",
+    "dashboard_non_general": "tags do not include #tasks/general\npreset dashboard_shared"
   },
   "globalQuery": "",
   "globalFilter": "",
