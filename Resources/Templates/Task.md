@@ -1,6 +1,6 @@
 ---
 tags:
-project: Default
+project:
 ---
 # To-Do
 - [ ] General item 1.

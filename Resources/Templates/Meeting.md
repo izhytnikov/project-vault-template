@@ -1,6 +1,6 @@
 ---
 tags:
-project: Default
+project:
 ---
 # To-Do
 - [ ] Attend the meeting.
