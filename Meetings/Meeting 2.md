@@ -3,6 +3,11 @@ tags:
 project: Project 1
 ---
 # To-Do
+- [ ] #tasks/general Attend the meeting.
+---
+- Recurring item 1.
+	- [ ] Recurring item 1.
+---
 - [ ] Unscheduled item.
 - [ ] Not started item. ⏳ 2025-09-17
 	- [ ] Sub-item. ⏳ 2025-09-17
