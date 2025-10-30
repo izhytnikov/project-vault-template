@@ -1,0 +1,16 @@
+.task-list-item:not([data-task-status-type="DONE"]):not([data-task-status-type="CANCELLED"])>.tasks-list-text>.task-scheduled>span {
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+
+.task-list-item:not([data-task-status-type="DONE"]):not([data-task-status-type="CANCELLED"])>.tasks-list-text>.task-scheduled[data-task-scheduled^="past-"]>span {
+    background: #b91d8280;
+}
+
+.task-list-item:not([data-task-status-type="DONE"]):not([data-task-status-type="CANCELLED"])>.tasks-list-text>.task-scheduled[data-task-scheduled="today"] span {
+    background: #1db95480;
+}
+
+.task-list-item:not([data-task-status-type="DONE"]):not([data-task-status-type="CANCELLED"])>.tasks-list-text>.task-scheduled[data-task-scheduled^="future-"] span {
+    background: #7f7f7f80;
+}

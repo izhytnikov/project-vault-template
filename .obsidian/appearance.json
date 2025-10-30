@@ -2,5 +2,8 @@
   "baseFontSize": 14,
   "cssTheme": "Things",
   "accentColor": "#9221de",
-  "theme": "system"
+  "theme": "system",
+  "enabledCssSnippets": [
+    "tasks"
+  ]
 }
