@@ -10,7 +10,7 @@
     "hide_everything": "# Hide everything except description and any tags\npreset hide_date_fields\npreset hide_non_date_fields\npreset hide_query_elements",
     "project_tasks": "path does not include Resources\nheading regex matches /^To-Do$/\ngroup by function task.file.hasProperty('project') ? '💡' + task.file.property('project') : '💡No project'\ngroup by function task.tags.includes('#tasks/general') ? '🎯General' : '🎯Specific'\ngroup by function '📂' + task.file.folder\ngroup by filename\nsort by filename\nsort by function task.lineNumber\nhide postpone button\nshow tree",
     "daily_note": "scheduled on {{query.file.filename}}\npreset project_tasks",
-    "dashboard": "not done\ngroup by scheduled\npreset project_tasks"
+    "dashboard": "not done\ngroup by function task.scheduled.moment !== null ? task.scheduled.format(\"YYYY-MM-DD dddd\") + \" (\" + task.scheduled.fromNow.name + \")\" : \"No scheduled date\"\npreset project_tasks"
   },
   "globalQuery": "",
   "globalFilter": "",
