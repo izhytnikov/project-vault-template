@@ -6,5 +6,5 @@
   "defaultViewMode": "preview",
   "livePreview": false,
   "showUnsupportedFiles": true,
-  "readableLineLength": true
+  "readableLineLength": false
 }
