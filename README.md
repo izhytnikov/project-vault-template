@@ -53,7 +53,7 @@ Each daily note has two sections:
     - Only tasks under a `To-Do` section **with a scheduled date** appear
 - **Summary**
     - Shows files containing tasks completed that day
-    - To exclude folders, configure the `Path to exclude from summary` setting in **Project Vault Tools**
+    - To exclude files, explicitly set the file's `showTasksInSummary` property to `false`
 
 #### 🔹 To-Do section
 - Any file that contains a `To-Do` section will appear in the daily note/dashboard
