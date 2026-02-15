@@ -1,6 +1,7 @@
 ---
 tags:
 project: Project 1
+showTasksInSummary: false
 ---
 # To-Do
 - [ ] Unscheduled item.

@@ -46,6 +46,7 @@
     "TQ_show_urgency": "checkbox",
     "excalidraw-embed-md": "checkbox",
     "project": "text",
-    "excalidraw-export-internal-links": "checkbox"
+    "excalidraw-export-internal-links": "checkbox",
+    "showTasksInSummary": "checkbox"
   }
 }
